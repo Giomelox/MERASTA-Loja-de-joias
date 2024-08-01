@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400&family=Bona+Nova+SC:ital,wght@100..700&family=Playwrite+CZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Arsenal SC", sans-serif;
+  background-color: rgb(195, 195, 195);
+}
+
+.navbar{
+  display:flex;
+  flex-flow: row nowrap;
+  height:120px;
+  background-color: black;
+  width:100%;
+  position: relative;
+}
+
+.titlepage{
+  color:rgb(255, 255, 255);
+  font-size: 24px;
+  font-family: "Bona Nova SC", serif;
+  padding-left:310px;
+  margin-top: -5px;
+}
+
+.diamante{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 70px;
+  width:70px;
+}
+
+.carrinho{
+  position: absolute;
+  width:120px;
+  margin-left: 1480px;
+  margin-top: 42px;
+}
+
+.numcar{
+  position: absolute;
+  max-width:4%;
+  padding: 1px 3px;
+  color:rgb(0, 0, 0);
+  margin-top: 37px;
+  margin-left: 1560px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+.profile{
+  width:100px;
+  position:absolute;
+  margin-top: 45px;
+  margin-left: 1270px;
+  border:2px solid white;
+  border-radius: 20px;
+  background-color: rgb(208, 208, 208);
+}
+
+.conta{
+  color:white;
+  position: absolute;
+  margin-top: 58px;
+  margin-left: 1390px;
+  text-decoration: none;
+}
+
+.conta:hover{
+  color:rgb(195, 195, 195);
+}
+
+.numcar:hover{
+  background-color: rgb(208, 208, 208);
+}
+
+.lupa {
+  width: 40px;
+  margin-left: 450;
+  margin-top: 5px;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.barrapesquisa{
+  position: absolute;
+  width: 600px;
+  height: 50px;
+  margin-top: -90px;
+  margin-left: 305px;
+  border-radius: 10px;
+  background-color: rgb(208, 208, 208);
+  display: flex;
+  align-items: center;
+}
+
+.pesquisa:focus {
+  outline: none;
+}
+
+.pesquisa{
+  width: calc(100% - 50px);
+  height: 100%;
+  border: none;
+  border-radius: 10px 0 0 10px; 
+  font-size: 20px;
+  padding-left: 10px;
+  background-color: transparent;
+}
+
+.navbar-border {
+  position: absolute;
+  bottom: 0;
+  left: 13%;
+  width: 75%;
+  height: 2px;
+  background-color: rgb(158, 158, 158);
+}
+
+.link{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+}
+
+.link a{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding-top: 18px;
+  padding-right: 70px;
+  text-decoration: none;
+  height:60px;
+  font-size: 20px;
+}
+
+.link a:hover{
+  color:rgb(195, 195, 195);
+}
+
+li a:hover, .dropdown:hover .dropbtn, .dropdown1:hover .dropbtn1, .dropdown2:hover .dropbtn2, .dropdown3:hover .dropbtn3, .dropdown4:hover .dropbtn4, .dropdown5:hover .dropbtn5{
+  color: rgb(195, 195, 195);
+}
+
+li.dropdown, li.dropdown1, li.dropdown2, li.dropdown3, li.dropdown4, li.dropdown5{
+  display: inline-block;
+}
+
+.dropdowncontent, .dropdowncontent1{
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  border: 3px solid rgb(150, 150, 150);
+  width: 330px;
+  margin-top: 36px;
+  margin-left: -100px; 
+}
+
+.dropdowncontent3, .dropdowncontent4, .dropdowncontent2{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(150, 150, 150);
+    width: 350px;
+    margin-top: 36px;
+    margin-left: -100px; 
+}
+
+.dropdowncontent5{
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  border: 3px solid rgb(150, 150, 150);
+  width: 390px;
+  margin-top: 36px;
+  margin-left: -100px; 
+}
+
+.dropdowncontent a, .dropdowncontent1 a, .dropdowncontent2 a, .dropdowncontent3 a, .dropdowncontent4 a, .dropdowncontent5 a{
+  color: rgb(255, 255, 255);
+  display: block;
+  margin: 30px;
+  border-bottom: 2px solid white;
+}
+
+.slidesimg{
+  height:600px;
+  width:1100px;
+  margin-left: 430px;
+  margin-top: 0px;
+}
+
+.sublinknav a{
+  color:black;
+  font-size: 25px;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(159, 159, 159);
+  width:200px;
+}
+
+.sublinknav a:hover{
+  color:rgb(255, 255, 255);
+}
+
+.sublinknav{
+  display:flex;
+  position: fixed;
+  flex-direction: column;
+  right:80px;
+  top:350px;
+  gap:60px;
+}
+
+.categoriaslink h2{
+  font-size: 30px;
+  text-align: center;
+}
+
+.categoriaslink{
+  display: flex;
+  flex-direction:column;
+  text-align: left;
+  position: fixed;
+  font-size: 25px;
+  width:200px;
+  left:100px;
+  top:250px;
+  gap:35px;
+}
+
+.categoriaslink a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(159, 159, 159);
+}
+
+.categoriaslink a:hover{
+  color:white;
+}
+
+.categorias{
+  text-align: center;
+  padding: 20px;
+  margin-left: 400px;
+  margin-right: 350px;
+}
+
+.fixed-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+main {
+padding-top: 200px;
+}
+
+.titulos{
+  font-size: 40px;
+  position: relative;
+  text-align: left;
+  margin-left: 10px;
+  width:100%;
+}
+
+.valor{
+  position: absolute;
+  padding-top: 230px;
+}
+
+.anelcontent, .bijuteriacontent, .exclusivocontent, .perolacontent, .ourobrancocontent{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.anel1, .anel2, .anel3, .anel4, .anel5, .anel6, .anel7, .anel8, .bijuteria1, .bijuteria2, .bijuteria3, .bijuteria4, .bijuteria5, .bijuteria6, .bijuteria7, .bijuteria8, 
+.exclusivo1, .exclusivo2, .exclusivo3, .exclusivo4, .exclusivo5, .exclusivo6, .exclusivo7, .exclusivo8, .perola1,.perola2,.perola3,.perola4,.perola5,.perola6,.perola7,.perola8
+,.ourobranco1,.ourobranco2,.ourobranco3,.ourobranco4,.ourobranco5,.ourobranco6,.ourobranco7,.ourobranco8{
+  background-color: rgb(243, 243, 243);
+  width: 260px;
+  height: 450px;
+  margin-right:0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 4px 4px 8px rgb(0, 0, 0); 
+}
+
+.anel1 h2, .anel2 h2, .anel3 h2, .anel4 h2, .anel5 h2, .anel6 h2, .anel7 h2, .anel8 h2, .bijuteria1 h2, .bijuteria2 h2, .bijuteria3 h2, .bijuteria4 h2, .bijuteria5 h2, .bijuteria6 h2, .bijuteria7 h2, .bijuteria8 h2,
+.exclusivo1,.exclusivo2,.exclusivo3,.exclusivo4,.exclusivo5,.exclusivo6,.exclusivo7,.exclusivo8, .perola1,.perola2,.perola3,.perola4,.perola5,.perola6,.perola7,.perola8,
+.ourobranco1,.ourobranco2,.ourobranco3,.ourobranco4,.ourobranco5,.ourobranco6,.ourobranco7,.ourobranco8{
+  margin: 0 0 10px 0;
+}
+
+.anel1 p, .anel2 p, .anel3 p, .anel4 p, .anel5 p, .anel6 p, .anel7 p, .anel8 p, .bijuteria1 p, .bijuteria2 p, .bijuteria3 p, .bijuteria4 p, .bijuteria5 p, .bijuteria6 p, .bijuteria7 p, .bijuteria8 p, 
+.exclusivo1,.exclusivo2,.exclusivo3,.exclusivo4,.exclusivo5,.exclusivo6,.exclusivo7,.exclusivo8, .perola1,.perola2,.perola3,.perola4,.perola5,.perola6,.perola7,.perola8,
+.ourobranco1,.ourobranco2,.ourobranco3,.ourobranco4,.ourobranco5,.ourobranco6,.ourobranco7,.ourobranco8{
+  margin: 0;
+}
+
+.imagemcompra{
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  width:300px;
+}
+
+.botaocategoria{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height:50px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border:1px solid rgb(104, 104, 104);
+}
+
+.botaocategoria:hover{
+  text-decoration:underline;
+}
+
+.footer{
+  height: 400px;
+  margin-top: 50px;
+  background-color: black;
+}
+
+.footer p{
+  color: white;
+  margin-top: 70px;
+}
+
+.rodape{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
